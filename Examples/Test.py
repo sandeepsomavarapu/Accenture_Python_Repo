@@ -1,1 +1,1 @@
-print("welcome to python")
+print('am from python')#ctrl+`
