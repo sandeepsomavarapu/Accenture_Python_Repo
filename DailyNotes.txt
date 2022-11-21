@@ -315,10 +315,10 @@ Dict:
 		2)dict is mutable and the order won't be preserved 
 
 
+Funtions
 
 
-
-
+	def
 
 
 
