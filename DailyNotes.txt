@@ -1,0 +1,374 @@
+Language:
+=========
+			Communication
+
+Programming Language:
+=====================
+			Communication with machines
+			
+			POP            			  OOP	OMG
+	B,BCPL,COBOL,PHOTON,C..			Java,C++,Python,.net......		
+	
+	
+					Performance  	Inheritance,Polymorphisam
+					Security		Abstraction,Encapsulation
+	
+			
+					python oopl/oops
+					
+Python:
+=======
+
+
+	welcome to india
+
+
+	java			2014 java8
+	=====				James Gosling		1995
+	class Welcome
+	{
+		int age=30;//static typed programming
+	public static void main(String args[])		19
+	{
+	System.out.println("welcome to india");
+	}
+	}
+	
+	Python:				guido van rossum     1991 feb 20th
+	========
+	print("welcome to india");
+	
+	
+	1.x
+	2.x
+	3.x
+	
+		functional programming from C
+		Object oriented  from C++
+		scripting lang features from shellscript
+		modular programming from Modula-3
+
+
+		syntax derived from C,ABC 
+
+
+Types of Applications:
+=====================
+1)Desktop applications
+2)web applications
+3)db applications
+4)network programming applications
+5)gaming applications
+6)Data Analysis 
+7)machine learning
+8)AI
+9)IOT ......
+
+DJango,flask,pdbc
+
+Features:
+==========
+1)simple
+
+2)free source and open source 
+
+3) high level pl  
+
+4)Platform Independent
+
+5)portability
+
+6)dynamic typed   a=29;
+
+7)oop
+
+8)interpreted
+
+9)Extensible	
+
+10)rich library
+
+
+cpython
+
+Jython
+
+ironpython
+
+
+Identifiers:
+============
+		
+
+			name='accenture';
+
+		a-z
+		A-Z
+		0-9
+		 _
+
+
+print("welcome to python")
+
+
+Reserved Words
+
+	
+
+to know python 33  keywords list
+
+>>> import keyword
+>>> keyword.kwlist
+['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 
+'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda',
+ 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+
+Datatypes:
+==========
+
+1)int
+2)float
+3)str
+4)bool
+5)complex   immutable
+6)bytes
+7)range
+8)List
+9)Tuple
+10)Set
+11)FrozenSet
+12)Dict
+13)None
+
+
+type()
+id() address
+print()
+a=123;
+a=234;
+print(a)....>
+
+
+
+
+>>> print('welcome to python')
+welcome to python
+>>> a=123
+>>> print(a)
+123
+>>> name123='sandeep'
+>>> print(name123)
+sandeep
+
+>>> type(id1)
+<class 'int'>
+>>> type(org_name)
+<class 'str'>
+>>> salary=22.5
+>>> type(salary)
+<class 'float'>
+>>> result=true
+>>> a=5+2j
+>>> type(a)
+<class 'complex'>
+
+>>> orgname='accenture'
+>>> type(orgname)
+<class 'str'>
+>>> orgname[0]
+'a'
+>>> orgname[-1]
+'e'
+>>> orgname[0:6]
+'accent'
+>>> orgname[0:5]
+'accen'
+>>> orgname[:8]
+'accentur'
+>>> orgname[2:8]
+'centur'
+>>> len(orgname)
+9
+ print(salary)
+22.5
+>>> type(salary)
+<class 'float'>
+>>> int(salary)
+22
+>>> marks=234.67
+>>> type(marks)
+<class 'float'>
+>>> marks=234
+>>> type(marks)
+<class 'int'>
+>>> float(marks)
+234.0
+>>> result='True'
+>>> type(result)
+<class 'str'>
+>>> bool(result)
+True
+>>> r=range(10,20,2)
+>>> for i in r:print(i)
+List:
+======
+	if we want to store
+	group of values as a single entity where insertion order is preserved and duplicates are allowed
+
+
+		1)duplicates are allowed
+		2)insertion order is followed
+		3)Both Homogeneous and Heterogeneous
+		4)growable in nature
+		5)[]
+		6)muttable
+>>> names=['sandeep','mahesh','suresh','rajesh']
+>>> type(names)
+
+Tuple
+=====
+		1)duplicates are allowed
+		2)insertion order is followed
+		3)Both Homogeneous and Heterogeneous
+		4)growable in nature
+		5)() 
+		6)imuttable
+
+>>> employees=('sandeep','mahesh','suresh','rajesh')
+>>> type(employees)
+>>> employees[0]='few are sleeping'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'tuple' object does not support item assignment
+>>> employees.append('accenture')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'tuple' object has no attribute 'append'
+
+range:
+	dt is sequence of numbers and immutable
+
+	range(10)
+
+
+exit()
+
+
+
+
+Set:
+======
+	if we want to store
+	group of values as a single entity where with out insertion order and duplicates 
+
+
+		1)duplicates are not allowed
+		2)insertion order is not preserved / followed
+		3)Both Homogeneous and Heterogeneous allowed
+		4)growable in nature
+		5){}
+		6)muttable
+		7)index not applicable
+		
+>>> names={'sandeep','mahesh','suresh','rajesh','mahesh'}
+>>> type(names)
+<class 'set'>
+>>> print(names)
+{'sandeep', 'suresh', 'rajesh', 'mahesh'}
+>>> print(names[0])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'set' object is not subscriptable
+>>> print(names.add(789))
+None
+>>> print(names)
+{'rajesh', 'mahesh', 'sandeep', 'suresh', 789}
+>>> names.remove('suresh');
+>>> print(names)
+{'rajesh', 'mahesh', 'sandeep', 789}
+
+
+
+
+FrozenSet
+=========
+		if we want to store
+	group of values as a single entity where with out insertion order and duplicates 
+
+
+		1)duplicates are not allowed
+		2)insertion order is not preserved / followed
+		3)Both Homogeneous and Heterogeneous allowed
+		4)growable in nature
+		5) frozenset({})
+		6)imuttable
+		7)index not applicable
+		
+Dict:
+=====
+	if we want to store	group of values as a key-value 
+
+	dict={1:'sandeep',2:'mahesh',3:'rajesh',1:'somesh'}
+
+		1)duplicate keys are not allowed but values can be duplicated 
+
+		2)dict is mutable and the order won't be preserved 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
