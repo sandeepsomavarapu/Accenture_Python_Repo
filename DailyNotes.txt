@@ -54,8 +54,8 @@ Python:
 
 Types of Applications:
 =====================
-1)Desktop applications
-2)web applications
+1)Desktop applications 		 media player,anti virus
+2)web applications				gmail,fb,insta....URL
 3)db applications
 4)network programming applications
 5)gaming applications
@@ -74,15 +74,15 @@ Features:
 
 3) high level pl  
 
-4)Platform Independent
+4)Platform Independent  WORA
 
 5)portability
 
-6)dynamic typed   a=29;
+6)dynamic typed   a=29;		int age=29;
 
 7)oop
 
-8)interpreted
+8)interpreted		PVM  
 
 9)Extensible	
 
@@ -107,14 +107,24 @@ Identifiers:
 		0-9
 		 _
 
-
-print("welcome to python")
-
-
-Reserved Words
-
+	age=29;
 	
-
+InBuilt Functions:
+=====================
+print("welcome to python")
+input("used to take input from end user ")-->str
+int()
+float()
+bool()
+type()
+id()
+complex()
+frozenset()
+	append()-->list
+	add()	-->set
+remove()	-->l/s
+	
+Reserved Words
 to know python 33  keywords list
 
 >>> import keyword
@@ -318,26 +328,40 @@ Dict:
 Funtions
 
 
-	def
+
+
+	a block/unit of statements         --> function
+	
+	the group/collection of functions   --> module
+ 
+	the group/collection of modules     --> library
 
 
 
 
+	2 types functions
+	
+		1)inbuilt/predefined functions
+		
+		2)user defined functions
+	 
 
 
+	def functionname(parameters):
+		.
+		.
+		.
+		return value;
 
 
+	def sayHello():
+		print("Hello! How r  u..")
 
+	sayHello()//code reusability
+	
 
-
-
-
-
-
-
-
-
-
+	
+parameters/arguments
 
 
 
