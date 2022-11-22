@@ -14,3 +14,6 @@ print(addOfTwo(11,23))
 bignumber=lambda a,b:a if a>b else b
 
 print(bignumber(23,28))
+
+
+#filter(function,sequence)
